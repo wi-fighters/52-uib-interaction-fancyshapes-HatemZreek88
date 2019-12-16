@@ -13,3 +13,6 @@ section {
 .task-one:after {
   content: "...The end.";
 }
+.task-two img {
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
