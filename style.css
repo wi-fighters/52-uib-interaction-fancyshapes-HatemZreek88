@@ -7,6 +7,15 @@ body {
 section {
   margin-top: 10px;
 }
+.task-one {
+  background-color: aqua;
+}
+.task-one:before,
+.task-one:after {
+  background-color: blueviolet;
+  font-style: italic;
+  font-weight: bold;
+}
 .task-one:before {
   content: "Once upon a time ...";
 }
